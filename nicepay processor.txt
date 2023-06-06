@@ -1,0 +1,29 @@
+
+
+data dump
+
+- 20220501 - 20230601
+
+
+
+(sha256(EdiDate + MID + Amt + MerchantKey
+
+
+20230512000000pwalltestm10007AjsBaVKLWwxBq2Uk7bPoJFAUaFAoU1WOa1IAJHcyRFhhROy9Qh3vM6Lk2AwusoIObOyTcntC2KnbV4KZnr9eg==
+hash
+
+
+
+
+
+MID: pwalltestm
+- Key: 7AjsBaVKLWwxBq2Uk7bPoJFAUaFAoU1WOa1IAJHcyRFhhROy9Qh3vM6Lk2AwusoIObOyTcntC2KnbV4KZnr9eg==
+
+https://web.nicepay.co.kr/v3/smart/payment.jsp
+
+Callback url
+https://webhook.site/03ef5ee0-6148-49da-aff0-b8a3069df39e
+
+
+return url
+https://webhook.site/#!/03ef5ee0-6148-49da-aff0-b8a3069df39e/02e991ad-833c-4a94-b512-d20e23a080b3/1

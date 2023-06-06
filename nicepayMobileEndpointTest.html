@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NICE PG :: NICEPAY</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi" />
+	<script type="text/javascript">
+		function init(){
+		var f = document.mainForm;
+  		f.method = "post";
+  		f.action = "https://web.nicepay.co.kr/v3/smart/payment.jsp";
+  		f.submit();
+	}
+	</script>
+</head>
+
+<body onload='init();'>
+	<form name='mainForm'>
+		<input type="hidden" name="token"	         id="token"            value="NICETOKNA89AA663F74C2FEAAC437C02572FF5EC" />
+		<input type="hidden" name="NpLang"           id="NpLang"           value="" />
+		<input type="hidden" name="OptionList"       id="OptionList"       value="" />
+		<input type="hidden" name="SkinType"         id="SkinType"         value="" />
+		<input type="hidden" name="LogoImage"        id="LogoImage"        value="" />
+		<input type="hidden" name="DirectShowOptYN"  id="DirectShowOptYN"  value="N" />
+		<input type="hidden" name="PayMethod"        id="PayMethod"        value="BANK" />
+		<input type="hidden" name="OldAndroid"       id="OldAndroid"       value="" />
+		<input type="hidden" name="BannerCl"       	 id="BannerCl"         value="1" />
+		<input type="hidden" name="BillAuthType"	 id="BillAuthType"	   value="" />
+		<input type="hidden" name="ServiceCode"	 	 id="ServiceCode"	   value="" />
+</form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://web.nicepay.co.kr/v3/webstd/js/nicepay-3.0.js"></script>
+        <script type="text/javascript">
+            function init(){
+            var f = document.payForm;
+            goPay(f);
+        }
+ 	function nicepayClose() {
+			document.payForm.submit();
+	}
+        </script>
+    </head>
+    <body onload='init();'>
+        <form name='payForm' method="post" accept-charset="euc-kr" action="https://webhook.site/03ef5ee0-6148-49da-aff0-b8a3069df39e">
+            <input type="hidden" name="GoodsName" id="GoodsName" value="TestItem1" />
+            <input type="hidden" name="Amt"       id="Amt"       value="1000" />
+            <input type="hidden" name="MID"         id="MID"         value="pwalltestm" />
+            <input type="hidden" name="EdiDate"        id="EdiDate"        value="20230512000000" />
+            <input type="hidden" name="Moid"  id="Moid"  value="abc" />
+            <input type="hidden" name="SignData"  id="SignData"  value="4d6777e4b612d3827a985301adee0818ba172cf5578cea1bd8fdcaa8ec3fc1af" />
+        </form>
+    </body>
+</html>
